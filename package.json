@@ -9,5 +9,8 @@
   "start": "npx tsc-watch --onSuccess \" node dist/index.js\" ",
   "devDependencies": {
     "tsc-watch": "^4.6.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
