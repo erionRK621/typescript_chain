@@ -1,0 +1,13 @@
+{
+  "name": "typescript_chain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/erionRK621/typescript_chain",
+  "author": "Joon kim <jhkim62134@naver.com>",
+  "license": "MIT",
+  "start": "npx tsc-watch --onSuccess \" node dist/index.js\" ",
+  "devDependencies": {
+    "tsc-watch": "^4.6.0"
+  }
+}
